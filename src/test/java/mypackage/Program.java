@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Program {
 
 	public void firstTest() {
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new ChromeDriver()
 		driver.get("https://ciitstudent.com/");
 		driver.manage().window().maximize();
 //		String title=driver.getTitle();
